@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red_light">#ffff4444</color>
+    <color name="blue_light">#ff33b5e5</color>
+    <color name="lineColorNromal">@color/blue_light</color>
+    <color name="lineColorError">@color/red_light</color>
+</resources>
