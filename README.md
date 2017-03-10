@@ -1,6 +1,8 @@
 # Lock9View
 手势图案密码
 
+[![Travis](https://img.shields.io/badge/License-Apache2.0-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
+[![Twitter](https://img.shields.io/badge/Gradle-3.3-brightgreen.svg)](https://gradle.org/releases)
 [![API](https://img.shields.io/badge/API-9%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=9)
 [ ![Download](https://api.bintray.com/packages/sogrey/maven/lock9view/images/download.svg) ](https://bintray.com/sogrey/maven/lock9view/_latestVersion)
 
@@ -8,7 +10,7 @@
 
 ## Usage
 
-step 1:
+### step 1:
 Add dependency to your gradle file:
 
     compile 'org.sogrey:lock9view:0.0.1'
@@ -23,7 +25,7 @@ Or maven:
     </dependency>
 
 
-step 2:
+### step 2:
 
 xml:
 
@@ -68,3 +70,21 @@ java:
                 }
             }
         });
+
+
+
+## License
+
+Copyright 2016 Sogrey
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
