@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
        final TextView      mTxtHint  =  (TextView)findViewById(R.id.txt);
        final LockIndicator mLockIndicator  =  (LockIndicator)findViewById(R.id.li);
-       final Lock9View          mLock9View=  (Lock9View)findViewById(R.id.lock9view);
+       final Lock9View mLock9View=  (Lock9View)findViewById(R.id.lock9view);
         mLock9View.setCallBack(new CallBack() {
             @Override
             public void onFinish(String password) {

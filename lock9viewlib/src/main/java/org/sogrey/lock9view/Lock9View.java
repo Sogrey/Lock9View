@@ -21,6 +21,9 @@ import android.view.animation.AnimationUtils;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * create by Sogrey on 2017/03/09
+ */
 public class Lock9View extends ViewGroup {
 
     /**
@@ -89,7 +92,7 @@ public class Lock9View extends ViewGroup {
             }
         }
         if (enableVibrate) { // 震动
-                vibrator.vibrate(vibrateTime);
+            vibrator.vibrate(vibrateTime);
         }
         new Handler().postDelayed(new Runnable() {
             @Override
@@ -111,6 +114,7 @@ public class Lock9View extends ViewGroup {
 
     /**
      * 构造函数
+     * @param context 上下文
      */
 
     public Lock9View(Context context) {
@@ -118,16 +122,34 @@ public class Lock9View extends ViewGroup {
         init(context,null,0,0);
     }
 
+    /**
+     *
+     * @param context
+     * @param attrs
+     */
     public Lock9View(Context context,AttributeSet attrs) {
         super(context,attrs);
         init(context,attrs,0,0);
     }
 
+    /**
+     *
+     * @param context
+     * @param attrs
+     * @param defStyleAttr
+     */
     public Lock9View(Context context,AttributeSet attrs,int defStyleAttr) {
         super(context,attrs,defStyleAttr);
         init(context,attrs,defStyleAttr,0);
     }
 
+    /**
+     *
+     * @param context
+     * @param attrs
+     * @param defStyleAttr
+     * @param defStyleRes
+     */
     @TargetApi(Build.VERSION_CODES.LOLLIPOP)
     public Lock9View(Context context,AttributeSet attrs,int defStyleAttr,int defStyleRes) {
         super(context,attrs,defStyleAttr,defStyleRes);
@@ -149,16 +171,16 @@ public class Lock9View extends ViewGroup {
         nodeSize=a.getDimension(org.sogrey.lock9view.R.styleable.Lock9View_lock9_nodeSize,context
                 .getResources().getDimension(R.dimen.nodeSize));
         nodeAreaExpand=a.getDimension(org.sogrey.lock9view.R.styleable
-                                              .Lock9View_lock9_nodeAreaExpand,context
+                .Lock9View_lock9_nodeAreaExpand,context
                 .getResources().getDimension(R.dimen.nodeAreaExpand));
         nodeOnAnim=a.getResourceId(org.sogrey.lock9view.R.styleable.Lock9View_lock9_nodeOnAnim,
-                                   R.anim.node_on_2);
+                R.anim.node_on_2);
         lineColor=a.getColor(org.sogrey.lock9view.R.styleable.Lock9View_lock9_lineColor,
-                             VERSION.SDK_INT>=VERSION_CODES.M?
-                             context.getResources().getColor(R.color.lineColorNromal,null)
-                             :
-                             context.getResources().getColor(R.color.lineColorNromal)
-                             );
+                VERSION.SDK_INT>=VERSION_CODES.M?
+                        context.getResources().getColor(R.color.lineColorNromal,null)
+                        :
+                        context.getResources().getColor(R.color.lineColorNromal)
+        );
         lineWidth=a.getDimension(org.sogrey.lock9view.R.styleable.Lock9View_lock9_lineWidth,context
                 .getResources().getDimension(R.dimen.lineWidth));
         padding=a.getDimension(org.sogrey.lock9view.R.styleable.Lock9View_lock9_padding,context
@@ -169,7 +191,7 @@ public class Lock9View extends ViewGroup {
         autoLink=a.getBoolean(org.sogrey.lock9view.R.styleable.Lock9View_lock9_autoLink,false);
 
         enableVibrate=a.getBoolean(org.sogrey.lock9view.R.styleable
-                                           .Lock9View_lock9_enableVibrate,false);
+                .Lock9View_lock9_enableVibrate,false);
         vibrateTime=a.getInt(org.sogrey.lock9view.R.styleable.Lock9View_lock9_vibrateTime,
                 context.getResources().getInteger(R.integer.vibrateTime));
 
@@ -200,6 +222,9 @@ public class Lock9View extends ViewGroup {
         setWillNotDraw(false);
     }
 
+    /**
+     *
+     */
     private void ckeckNull() {
         if (nodeSrc==null) {
             if (VERSION.SDK_INT>=VERSION_CODES.LOLLIPOP) {
@@ -409,6 +434,11 @@ public class Lock9View extends ViewGroup {
         private int num;
         private boolean highLighted=false;
 
+        /**
+         *
+         * @param context
+         * @param num
+         */
         @SuppressWarnings("deprecation")
         public NodeView(Context context,int num) {
             super(context);
@@ -416,10 +446,19 @@ public class Lock9View extends ViewGroup {
             setBackgroundDrawable(nodeSrc);
         }
 
+        /**
+         *
+         * @return
+         */
         public boolean isHighLighted() {
             return highLighted;
         }
 
+        /**
+         *
+         * @param highLighted
+         * @param isMid
+         */
         @SuppressWarnings("deprecation")
         public void setHighLighted(boolean highLighted,boolean isMid) {
             if (this.highLighted!=highLighted) {
@@ -442,14 +481,26 @@ public class Lock9View extends ViewGroup {
             }
         }
 
+        /**
+         *
+         * @return
+         */
         public int getCenterX() {
             return (getLeft()+getRight())/2;
         }
 
+        /**
+         *
+         * @return
+         */
         public int getCenterY() {
             return (getTop()+getBottom())/2;
         }
 
+        /**
+         *
+         * @return
+         */
         public int getNum() {
             return num;
         }
