@@ -27,6 +27,8 @@ Or maven:
       <type>pom</type>
     </dependency>
 
+Or download aar [![Download](https://api.bintray.com/packages/sogrey/maven/lock9view/images/download.svg) ](https://bintray.com/sogrey/maven/download_file?file_path=org%2Fsogrey%2Flock9view%2F0.0.1%2Flock9view-0.0.1.aar)
+
 
 ### step 2:
 
