@@ -1,7 +1,8 @@
 # Lock9View
 手势图案密码
 
-[![API](https://img.shields.io/badge/API-9%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=9) [ ![Download](https://api.bintray.com/packages/sogrey/maven/lock9view/images/download.svg) ](https://bintray.com/sogrey/maven/lock9view/_latestVersion) [ ![Download](https://api.bintray.com/packages/sogrey/maven/lock9view/images/download.svg?version=0.0.1) ](https://bintray.com/sogrey/maven/lock9view/0.0.1/link)
+[![API](https://img.shields.io/badge/API-9%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=9)
+[ ![Download](https://api.bintray.com/packages/sogrey/maven/lock9view/images/download.svg) ](https://bintray.com/sogrey/maven/lock9view/_latestVersion)
 
 ![运行示例项目](http://ojhqtezha.bkt.clouddn.com/sogrey_2017-03-10_094240.jpg)
 
