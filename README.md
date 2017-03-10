@@ -3,8 +3,11 @@
 
 [![Travis](https://img.shields.io/badge/License-Apache2.0-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
 [![Twitter](https://img.shields.io/badge/Gradle-3.3-brightgreen.svg)](https://gradle.org/releases)
+[![Platform](https://img.shields.io/badge/platform-Android-green.svg?style=flat)](https://www.android.com)
 [![API](https://img.shields.io/badge/API-9%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=9)
-[ ![Download](https://api.bintray.com/packages/sogrey/maven/lock9view/images/download.svg) ](https://bintray.com/sogrey/maven/lock9view/_latestVersion)
+[![Download](https://api.bintray.com/packages/sogrey/maven/lock9view/images/download.svg) ](https://bintray.com/sogrey/maven/lock9view/_latestVersion)
+
+[![Get automatic notifications about new "lock9view" versions](https://www.bintray.com/docs/images/bintray_badge_color.png)](https://bintray.com/sogrey/maven/lock9view?source=watch)
 
 ![运行示例项目](http://ojhqtezha.bkt.clouddn.com/sogrey_2017-03-10_094240.jpg)
 
