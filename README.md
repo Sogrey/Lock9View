@@ -14,21 +14,23 @@
 ## Usage
 
 ### step 1:
+
 Add dependency to your gradle file:
 
-    compile 'org.sogrey:lock9view:0.0.1'
+    compile 'org.sogrey:lock9view:{lastVersion}'
 
 Or maven:
 
     <dependency>
       <groupId>org.sogrey</groupId>
       <artifactId>lock9view</artifactId>
-      <version>0.0.1</version>
+      <version>{lastVersion}</version>
       <type>pom</type>
     </dependency>
 
-Or download aar [![Download](https://api.bintray.com/packages/sogrey/maven/lock9view/images/download.svg) ](https://bintray.com/sogrey/maven/download_file?file_path=org%2Fsogrey%2Flock9view%2F0.0.1%2Flock9view-0.0.1.aar)
+Or download aar [![Download](https://api.bintray.com/packages/sogrey/maven/lock9view/images/download.svg) ](https://bintray.com/sogrey/maven/download_file?file_path=org%2Fsogrey%2Flock9view%2F0.0.2%2Flock9view-0.0.2.aar)
 
+> 其中：{lastVersion} 用上面 download 徽章后面的版本号替换。
 
 ### step 2:
 
