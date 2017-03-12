@@ -30,7 +30,7 @@ Or maven:
 
 Or download aar [![Download](https://api.bintray.com/packages/sogrey/maven/lock9view/images/download.svg) ](https://bintray.com/sogrey/maven/download_file?file_path=org%2Fsogrey%2Flock9view%2F0.0.2%2Flock9view-0.0.2.aar)
 
-> 其中：{lastVersion} 用上面 download 徽章后面的版本号替换。
+> 其中：{lastVersion} 用上面 Download 徽章后面的版本号替换。
 
 ### step 2:
 
