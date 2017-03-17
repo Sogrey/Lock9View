@@ -11,6 +11,10 @@
 
 ![运行示例项目](http://ojhqtezha.bkt.clouddn.com/sogrey_2017-03-10_094240.jpg)
 
+## JavaDoc
+
+click me -> [Doc](https://sogrey.github.io/JavaDocs/Lock9View)
+
 ## Usage
 
 ### step 1:
