@@ -6,6 +6,7 @@
 [![Platform](https://img.shields.io/badge/platform-Android-green.svg?style=flat)](https://www.android.com)
 [![API](https://img.shields.io/badge/API-9%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=9)
 [![Download](https://api.bintray.com/packages/sogrey/maven/lock9view/images/download.svg) ](https://bintray.com/sogrey/maven/lock9view/_latestVersion)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/b18067ea3f4743d098cc0cc44ea7802a)](https://www.codacy.com/app/Sogrey/Lock9View?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Sogrey/Lock9View&amp;utm_campaign=Badge_Grade)
 
 [![Get automatic notifications about new "lock9view" versions](https://www.bintray.com/docs/images/bintray_badge_color.png)](https://bintray.com/sogrey/maven/lock9view?source=watch)
 
